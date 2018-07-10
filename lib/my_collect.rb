@@ -9,7 +9,7 @@ if block_given?
   name = []
 
   while i < array.length
-    name.push yield array[i]
+    name.push yield( array[i])
     i = i+1
   end
 else
